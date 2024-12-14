@@ -9,6 +9,8 @@ imgresize = cv2.resize(img, (640,480))
 
 #* วาดเส้ยตรงในรูป
 cv2.arrowedLine(imgresize, (0,0), (500,350), (255,255,0), 5)
+cv2.arrowedLine(imgresize, (0,0), (200,200), (255,100,0), 5)
+cv2.arrowedLine(imgresize, (0,0), (600,100), (0,255,255), 5)
 
 cv2.imshow('Output', imgresize)
 cv2.waitKey(0)
