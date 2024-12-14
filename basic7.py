@@ -10,7 +10,7 @@ while (cap.isOpened()):
     
     if check == True:
         cv2.imshow("Output" , frame)
-        if cv2.waitKey(1) & 0xFF == ord('q'):     #* เช็กการกดปุัม เมื่อกดปุ่มนั้นๆ จะปิด
+        if cv2.waitKey(1) & 0xFF == ord('q'): #* เช็กการกดปุัม เมื่อกดปุ่มนั้นๆ จะปิด
             break        
     else:
         break
